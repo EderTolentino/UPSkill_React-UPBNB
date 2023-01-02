@@ -1,0 +1,51 @@
+.Pesquisar {
+  padding: 0 25px;
+  margin-bottom: 50px;
+  width: 100%;
+
+  .container_input {
+    position: relative;
+    top: 0;
+    width: 98%;
+    margin: 1.5em 1%;
+
+
+    .icone {
+      position: absolute;
+      top: 18px;
+      right: 15px;
+      color: #c7c7c7;
+    }
+
+    .pesquisarCasa {
+      flex: 1;
+      width: 100%;
+      border-radius: 10px;
+      padding: 10px 15px;
+      border-radius: 10px;
+      border: 2px solid #909090;
+
+      &:focus {
+        outline-width: 0;
+      }
+    }
+  }
+
+
+  .listaCasas {
+    width: 100%;
+
+
+    .Casa {
+      width: 48%;
+      margin: 2px 1%;
+      display: inline-block;
+    }
+  }
+
+  .paginacao {
+    text-align: center;
+    color: #004f63;
+    text-decoration: underline;
+  }
+}
